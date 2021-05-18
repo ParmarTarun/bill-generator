@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  margin-top: 1rem;
+  font-family: Times, serif;
+  font-size: 14px;
+}
+
+.bill{
+  width: 900px;
+  margin: auto !important;
+  margin-bottom: 200px !important;
+}
+.bill .heading p:first-child{
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.bill .heading p{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.bill .bill-details{
+  margin-top: 1rem;
+}
+.bill .bill-details p{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.bill .bill-details .vertical-space{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bill .amount-details div p{
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+.bill .amount-details div p:first-child{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.bill .amount-details .no{
+  text-align: left;
+  padding-left: 1.5rem;
+}
+.bill .amount-details .no:first-child{
+  text-align: left;
+  padding-left: 0.8rem;
+}
+.bill .amount-details .particulars{
+  text-align: left;
+}
+.bill .amount-details .amount{
+  text-align: right;
+}
+.bill .past-amount-details{
+  margin-top: 0.7rem;
+}
+.bill .past-amount-details p{
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+.bill .amount-total{
+  margin-top: 0.7rem
+}
+
+.bill .bill-footer p{
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
+.bill .bill-footer{
+  text-align: left;
+  margin-top: 0.4rem;
+}
+.bill .bill-sign{
+  text-align: left;
+  margin-top: 0.4rem;
+}

@@ -1,0 +1,440 @@
+[
+    {
+        "name": "SURESH NAHAR SINGH KHARWAD",
+        "flat": "F-001",
+        "prevBal": 2,
+        "recAmount": 3,
+        "brf": 100,
+        "slc": 100,
+        "interest": 1,
+        "total": 600,
+        "netTotal": 1000
+    },
+    {
+        "name": "REKHA YOGESH MISHRA",
+        "flat": "F-002",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 100,
+        "interest": "90",
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "NITA BHARAT SHAH",
+        "flat": "F-003",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 100,
+        "interest": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "S.P.DEUSKAR",
+        "flat": "F-004",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 100,
+        "interest": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "BHANWARDAS P. VAISHNAV",
+        "flat": "F-005",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "interest": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "SHAKUNTALA RATANCHAND SHAH",
+        "flat": "F-101",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 100,
+        "interest": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "ANKESH RAMESHKUMAR SHAH",
+        "flat": "F-102",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "interest": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "VIJAYSINGH K. BHATI",
+        "flat": "F-103",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "interest": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "AMIT JAYANTILAL SHAH",
+        "flat": "F-104",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 100,
+        "interest": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "INDRA MOTARAM SUTHAR",
+        "flat": "F-105",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 100,
+        "interest": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "RAMESHKUMAR SUTHAR",
+        "flat": "F-106",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "NARESH KANTILAL RATHOD",
+        "flat": "F-107",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "RADHESHYAM A. VAISHNAV",
+        "flat": "F-108",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 100,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "SONAL ALPESH VYAS",
+        "flat": "F-109",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "PARTAPCHAND M. SUTHAR",
+        "flat": "F-201",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "NANALAL CHUNILAL KOTHARI",
+        "flat": "F-202",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 100,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "BHARATKUMAR PANCHAL",
+        "flat": "F-203",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "SHIVLAL J. PARMAR",
+        "flat": "F-204",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "KIKARAM JETHARAM PARMAR",
+        "flat": "F-205",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 100,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "RATANDAS SARJUDAS VAISHNAV",
+        "flat": "F-206",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "KUSUMBEN RASHIKLAL RATHOD",
+        "flat": "F-207",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "KHINVRAJ BHIKULAL PALIWAL",
+        "flat": "F-208",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "MOOLDAS S. VAISHNAV",
+        "flat": "F-209",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "DEVIKUMAR R. MISHTRI",
+        "flat": "F-301",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 100,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "BHARAT K. SHAH",
+        "flat": "F-302",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 100,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "MODHARAM CHUNILAL MALI",
+        "flat": "F-303",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "PRAVIN GOVIND PADAVE",
+        "flat": "F-304",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 100,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "ASHISH F. PEREIRA",
+        "flat": "F-305",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "MAHENDRA BHAI B. PANDYA",
+        "flat": "F-306",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "MUKATABEN N. DODIA",
+        "flat": "F-307",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "MUKESH & MAHENDRA CHHATBOR",
+        "flat": "F-308",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 100,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "GANESHILAL UMARAM MALI",
+        "flat": "F-309",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "ANKESH RAMESHKUMAR SHAH",
+        "flat": "S-001",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 0,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "TANUJA SANJAY SHAH",
+        "flat": "S-002",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 0,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "CHANDRAPRABHA PARASMAL JAIN",
+        "flat": "S-003",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 0,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "PHOOLCHAND YADAV",
+        "flat": "S-004",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 100,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "VIJAYSINGH K. BHATI",
+        "flat": "S-005",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "ACHALDAS P RANKA",
+        "flat": "S-006",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 0,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "DAULATSINGH K. BHATI",
+        "flat": "S-007",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "UNKNOWN",
+        "flat": "S-008",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "UNKNOWN",
+        "flat": "S-009",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "UNKNOWN",
+        "flat": "S-010",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 0,
+        "slc": 0,
+        "total": 0,
+        "netTotal": 1000
+    },
+    {
+        "name": "REKHA YOGESH MISHRA",
+        "flat": "S-011",
+        "prevBal": 0,
+        "recAmount": 0,
+        "brf": 100,
+        "slc": 0
+    }
+]

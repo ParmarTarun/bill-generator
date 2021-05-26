@@ -5,6 +5,12 @@
   font-size: 14px;
 }
 
+.nav-btns{
+  width: 70%;
+  margin: auto;
+}
+
+/* bill css */
 .bill{
   width: 900px;
   margin: auto !important;
@@ -79,4 +85,12 @@
 .bill .bill-sign{
   text-align: left;
   margin-top: 0.4rem;
+}
+/* details form css */
+.form{
+  width: 70%;
+  font-size: 1rem;
+  margin: auto;
+  margin-top: 5rem;
+  text-align: start;
 }

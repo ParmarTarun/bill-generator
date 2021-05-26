@@ -17,7 +17,7 @@
         "recAmount": 0,
         "brf": 100,
         "slc": 100,
-        "interest": "90",
+        "interest": 90,
         "total": 0,
         "netTotal": 1000
     },
@@ -60,7 +60,7 @@
         "prevBal": 0,
         "recAmount": 0,
         "brf": 100,
-        "slc": 100,
+        "slc": 0,
         "interest": 0,
         "total": 0,
         "netTotal": 1000
@@ -71,7 +71,7 @@
         "prevBal": 0,
         "recAmount": 0,
         "brf": 100,
-        "slc": 0,
+        "slc": 100,
         "interest": 0,
         "total": 0,
         "netTotal": 1000

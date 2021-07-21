@@ -1,17 +1,32 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
-import initialData from "./Data/data.json";
-import initialMetaData from "./Data/metaData.json";
 import Bill from "./bill";
 import DetailsForm from "./detailsForm";
 import MetaDetailsForm from "./metaDetailsForm";
 import { Button } from "react-bootstrap";
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
   const [billIndex, setBillIndex] = useState(0);
   const [completed, setCompleted] = useState(false);
-  const [data, setData] = useState(initialData);
-  const [metaData, setMetaData] = useState(initialMetaData);
+  const [data, setData] = useState(null);
+  const [metaData, setMetaData] = useState(null);
+  const [displayOk, setDisplayOk] = useState(true);
+
+  useEffect(() => {
+    fetch("https://bill-251a9-default-rtdb.firebaseio.com/billsData.json")
+      .then((res) => res.json())
+      .then((prevData) => {
+        const { data, metaData } = prevData;
+        setData(data);
+        setMetaData(metaData);
+      })
+      .then((_) => setLoading(false))
+      .catch((err) => {
+        console.log(err);
+        alert("Failed to fetch data, please check console.");
+      });
+  }, []);
 
   const dataCollector = (key, val) => {
     const newData = data.map((item, i) => {
@@ -38,11 +53,29 @@ const App = () => {
     else setBillIndex((prev) => prev - 1);
   };
 
-  const submitData = () => {};
+  const submitData = () => {
+    const sure = window.confirm("Update the data in database?");
+    if (!sure) return;
+    fetch("https://bill-251a9-default-rtdb.firebaseio.com/billsData.json", {
+      method: "PUT",
+      body: JSON.stringify({ data, metaData }),
+    })
+      .then((res) => res.json())
+      .then((_) => {
+        setDisplayOk(false);
+        alert("Database updated, you may print the bills.");
+      })
+      .catch((err) => {
+        console.log(err);
+        alert("Something went wrong, please check console.");
+      });
+  };
 
   return (
     <div className="App">
-      {completed ? (
+      {loading ? (
+        <p>Loading...</p>
+      ) : completed ? (
         <>
           {data.map((billDetails, index) => (
             <Bill
@@ -52,9 +85,16 @@ const App = () => {
               key={index}
             />
           ))}
-          <Button variant="dark" onClick={submitData}>
-            OK
-          </Button>
+          {displayOk && (
+            <>
+              <Button variant="light" onClick={()=>setCompleted(false)}>
+                BACK
+              </Button>
+              <Button className="ml-4" variant="dark" onClick={submitData}>
+                OK
+              </Button>
+            </>
+          )}
         </>
       ) : (
         <>

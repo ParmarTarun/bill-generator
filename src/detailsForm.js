@@ -18,8 +18,7 @@ function DetailsForm({
     dataCollector(e.target.name, e.target.value);
   };
 
-  let { name, flat, prevBal, brf, slc, recAmount } = data;
-  const interest = 10;
+  let { name, flat, prevBal, brf, slc, recAmount, interest } = data;
   const total = 400 + +brf + +slc + +interest;
   const netTotal = total + +prevBal - +recAmount;
   const newBill = {
@@ -102,7 +101,13 @@ function DetailsForm({
             Interest
           </Form.Label>
           <Col sm="2">
-            <p>{interest}</p>
+          <Form.Control
+              type="number"
+              name="interest"
+              value={interest}
+              onChange={handleChange}
+              disabled={!edit}
+            />
           </Col>
         </Form.Group>
         <Form.Group as={Row}>

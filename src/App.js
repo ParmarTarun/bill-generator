@@ -100,7 +100,7 @@ const App = () => {
         <>
           <MetaDetailsForm {...{ metaData, metaDataCollector }} />
           <DetailsForm
-            {...{ dataCollector, billIndex, previous, next, completed }}
+            {...{ dataCollector, billIndex, previous, next, completed, setCompleted }}
             data={data[billIndex]}
           />
         </>

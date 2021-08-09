@@ -8,6 +8,7 @@ function DetailsForm({
   billIndex,
   previous,
   next,
+  setCompleted,
 }) {
   const [edit, setEdit] = useState(false);
   const toggleEdit = () => {
@@ -101,7 +102,7 @@ function DetailsForm({
             Interest
           </Form.Label>
           <Col sm="2">
-          <Form.Control
+            <Form.Control
               type="number"
               name="interest"
               value={interest}
@@ -169,6 +170,11 @@ function DetailsForm({
             {billIndex === 42 ? "DONE" : "NEXT"}
           </Button>
         </div>
+      )}
+      {billIndex === 0 && (
+        <Button variant="success" onClick={() => setCompleted(true)}>
+          Show Bill
+        </Button>
       )}
     </div>
   );

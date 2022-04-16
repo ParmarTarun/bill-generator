@@ -21,7 +21,15 @@ const App = () => {
         setData(data);
         setMetaData(metaData);
       })
-      .then((_) => setLoading(false))
+      .then((_) => {
+        console.log()
+        setLoading(false)
+        // shortcut for getting current bill
+        const queryParams = new URLSearchParams(window.location.search);
+        if(queryParams.get('bill')){
+          setCompleted(true);
+        } 
+      })
       .catch((err) => {
         console.log(err);
         alert("Failed to fetch data, please check console.");

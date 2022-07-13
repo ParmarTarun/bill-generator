@@ -133,13 +133,11 @@ const bill = ({ billDetails, billNo, metaData }) => {
         <Row noGutters={true}>Hon. Secretary/Treasurer</Row>
         <Row className="bill-footer" noGutters={true}>
           <Col lg={6} sm={6}>
-            <p>Any objection to bill should be intimated immediately</p>
             <p>
               Payment should be made by cash/cheque within 15 days of the bill
             </p>
             <p>
-              Late fees shall be charged @21% P.A. on late &#38; Overdue
-              Payments
+              Late fees shall be charged @21% P.A.
             </p>
           </Col>
           <Col lg={{ span: 5, offset: 1 }} sm={{ span: 5, offset: 1 }}>

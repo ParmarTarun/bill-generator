@@ -14,7 +14,10 @@
 .bill{
   width: 900px;
   margin: auto !important;
-  margin-bottom: 200px !important;
+  font-size: 20px;
+}
+.bill:nth-child(odd){
+  margin-bottom: 60px !important;
 }
 .bill .heading p:first-child{
   margin-top: 0;

@@ -1,5 +1,7 @@
 ## Bill Generator
 
+A basic single page react application that let users enter the bill details, save to firebase store and provide with a single pdf to print. 
+
 # Steps to run
  - npm install 
  - npm start

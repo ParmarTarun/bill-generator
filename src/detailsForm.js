@@ -20,7 +20,7 @@ function DetailsForm({
   };
 
   let { name, flat, prevBal, brf, slc, recAmount, interest } = data;
-  const total = 400 + +brf + +slc + +interest;
+  const total = 500 + +brf + +slc + +interest;
   const netTotal = total + +prevBal - +recAmount;
   const newBill = {
     ...data,

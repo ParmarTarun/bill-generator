@@ -77,11 +77,11 @@ const bill = ({ billDetails, billNo, metaData }) => {
           <Col lg={1} sm={1} className="amount">
             <p>Amount</p>
             <p>0.00</p>
-            <p>400.00</p>
+            <p>500.00</p>
             <p>0.00</p>
             <p>0.00</p>
             <p>0.00</p>
-            <p>400.00</p>
+            <p>500.00</p>
           </Col>
           <Col lg={1} sm={1} className="no">
             <p>No</p>
@@ -102,7 +102,7 @@ const bill = ({ billDetails, billNo, metaData }) => {
           </Col>
           <Col lg={1} sm={1} className="amount">
             <p>Amount</p>
-            <p>400.00</p>
+            <p>500.00</p>
             <p>0.00</p>
             <p>{parseFloat(brf).toFixed(2)}</p>
             <p>{parseFloat(slc).toFixed(2)}</p>
@@ -136,9 +136,7 @@ const bill = ({ billDetails, billNo, metaData }) => {
             <p>
               Payment should be made by cash/cheque within 15 days of the bill
             </p>
-            <p>
-              Late fees shall be charged @21% P.A.
-            </p>
+            <p>Late fees shall be charged @21% P.A.</p>
           </Col>
           <Col lg={{ span: 5, offset: 1 }} sm={{ span: 5, offset: 1 }}>
             FOR JAY SONALI CO-OP HSG.SOC.LTD.
